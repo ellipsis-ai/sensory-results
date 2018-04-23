@@ -1,0 +1,10 @@
+{
+  "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+  "name" : "SensoryResult",
+  "forcePrivateResponse" : false,
+  "isDataType" : true,
+  "dataTypeConfig" : {
+    "fields" : [ ],
+    "usesCode" : true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "Sensory Results Checklist",
+  "exportId" : "RD3-WzmPT2iM7ZREzajEGg",
+  "icon" : "👃",
+  "requiredAWSConfigs" : [ ],
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}

@@ -1,0 +1,131 @@
+[ {
+  "exportId" : "03Be-XxNQ4SnouE4floh-g",
+  "name" : "springMixMTR",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "MTR – Spring mix",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "2GV7b-u6Rb60CoRqSKCHkg",
+  "name" : "babyKaleMTR",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "MTR – Baby kale",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "2O1Tko8ZRfmvAaoho1uHRg",
+  "name" : "springMixMegalodon",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "Megalodon – Spring mix",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "2m_4qYxCTBSlrkHcqmOUSw",
+  "name" : "babyRomaineKIT",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "KIT – Baby Romaine",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "49AR9zUvQNmgRTnaIPjqAQ",
+  "name" : "babyKaleMegalodon",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "Megalodon – Baby kale",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "CoTLNTsgTXadkwmXQ2DQ5w",
+  "name" : "babyRomaineMTR",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "MTR – Baby Romaine",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "KuCJZNzERM6VnFNfZAogAg",
+  "name" : "babyKaleKIT",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "KIT – Baby kale",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "UDrgo13jTjyhJPhAnrP-BA",
+  "name" : "summary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `summary`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "WRScDg3lQOqDn55j7gf6vg",
+  "name" : "babyArugulaKIT",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "KIT – Baby arugula",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "bO9YLw9fSJ-KdVe4fldaGw",
+  "name" : "babyArugulaMTR",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "MTR – Baby arugula",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "eqUoihRsT-meSOVuKm38hQ",
+  "name" : "babyRomaineMegalodon",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "Megalodon – Baby Romaine",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "m1qSho-ZSnWfbvt19Fex5g",
+  "name" : "springMixKIT",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "KIT – Spring mix",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "zFWSNNFpT8WYE3UJcFz_Gg",
+  "name" : "babyArugulaMegalodon",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "Megalodon – Baby arugula",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
