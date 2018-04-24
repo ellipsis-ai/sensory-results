@@ -6,12 +6,13 @@ const channel = ellipsis.userInfo.messageInfo.channel;
 const user = ellipsis.userInfo.messageInfo.userId;
 
 const PASS = ":white_check_mark:";
+const CAUTION = ":warning:";
 const FAIL = ":x:";
 const NOT_APPLICABLE = ":heavy_minus_sign:";
 
 const summary = `
 Sensory checklist has been completed by <@${user}>:
-(${PASS} = Pass, ${FAIL} = Fail, ${NOT_APPLICABLE} = N/A)
+(${PASS} = Pass, ${CAUTION} = Caution, ${FAIL} = Fail, ${NOT_APPLICABLE} = N/A)
 
 **MTR:**
 ${checkFor(springMixMTR)}   Spring mix
@@ -48,6 +49,8 @@ function postSummaryTo(channel) {
 function checkFor(result) {
   if (result.id === "Pass") {
     return PASS;
+  } else if (result.id === "Caution") {
+    return CAUTION;
   } else if (result.id === "Fail") {
     return FAIL;
   } else {
