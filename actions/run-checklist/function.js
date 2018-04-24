@@ -1,36 +1,32 @@
 function(springMixMTR, babyRomaineMTR, babyArugulaMTR, babyKaleMTR, springMixMegalodon, babyRomaineMegalodon, babyArugulaMegalodon, babyKaleMegalodon, springMixKIT, babyRomaineKIT, babyArugulaKIT, babyKaleKIT, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
 const api = new EllipsisApi(ellipsis);
-
+const options = require('options');
 const channel = ellipsis.userInfo.messageInfo.channel;
 const user = ellipsis.userInfo.messageInfo.userId;
 
-const PASS = ":white_check_mark:";
-const CAUTION = ":warning:";
-const FAIL = ":x:";
-const NOT_APPLICABLE = ":heavy_minus_sign:";
-
+const legend = options.map(ea => `${ea.emoji} = ${ea.name}`).join(", ");
 const summary = `
 Sensory checklist has been completed by <@${user}>:
-(${PASS} = Pass, ${CAUTION} = Caution, ${FAIL} = Fail, ${NOT_APPLICABLE} = N/A)
+(${legend})
 
 **MTR:**
-${checkFor(springMixMTR)}   Spring mix
-${checkFor(babyRomaineMTR)}   Baby romaine
-${checkFor(babyArugulaMTR)}   Baby arugula
-${checkFor(babyKaleMTR)}   Baby kale
+${springMixMTR.emoji}   Spring mix
+${babyRomaineMTR.emoji}   Baby romaine
+${babyArugulaMTR.emoji}   Baby arugula
+${babyKaleMTR.emoji}   Baby kale
 
 **Megalodon:**
-${checkFor(springMixMegalodon)}   Spring mix
-${checkFor(babyRomaineMegalodon)}   Baby romaine
-${checkFor(babyArugulaMegalodon)}   Baby arugula
-${checkFor(babyKaleMegalodon)}   Baby kale
+${springMixMegalodon.emoji}   Spring mix
+${babyRomaineMegalodon.emoji}   Baby romaine
+${babyArugulaMegalodon.emoji}   Baby arugula
+${babyKaleMegalodon.emoji}   Baby kale
 
 **KIT:**
-${checkFor(springMixKIT)}   Spring mix
-${checkFor(babyRomaineKIT)}   Baby romaine
-${checkFor(babyArugulaKIT)}   Baby arugula
-${checkFor(babyKaleKIT)}   Baby kale
+${springMixKIT.emoji}   Spring mix
+${babyRomaineKIT.emoji}   Baby romaine
+${babyArugulaKIT.emoji}   Baby arugula
+${babyKaleKIT.emoji}   Baby kale
 `;
 
 const channels = ["sensory-results"].filter(ea => ea != channel);
@@ -44,17 +40,5 @@ function postSummaryTo(channel) {
     args: [{ name: "summary", value: summary }],
     channel: channel
   });
-}
-
-function checkFor(result) {
-  if (result.id === "Pass") {
-    return PASS;
-  } else if (result.id === "Caution") {
-    return CAUTION;
-  } else if (result.id === "Fail") {
-    return FAIL;
-  } else {
-    return NOT_APPLICABLE;
-  }
 }
 }
