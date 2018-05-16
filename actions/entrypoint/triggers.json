@@ -1,5 +1,5 @@
 [ {
-  "text" : "run sensory example",
+  "text" : "run sensory checklist",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false

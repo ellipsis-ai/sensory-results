@@ -49,6 +49,26 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "BLQM_5t6S36evoENtc5zJQ",
+  "name" : "result",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "What is the sensory result?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "CULjdK3fQaewTf1dubhH-g",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "CoTLNTsgTXadkwmXQ2DQ5w",
   "name" : "babyRomaineMTR",
   "paramType" : {
@@ -59,6 +79,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "KHl2mJQyT52H7SWFRJ_dqQ",
+  "name" : "result",
+  "paramType" : {
+    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
+    "name" : "SensoryResult"
+  },
+  "question" : "What is the value for `result`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "KuCJZNzERM6VnFNfZAogAg",
   "name" : "babyKaleKIT",
   "paramType" : {
@@ -66,6 +96,16 @@
     "name" : "SensoryResult"
   },
   "question" : "KIT – Baby kale",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "PU_EDMKZS2q5OW7a-Y8Dyw",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -86,6 +126,26 @@
     "name" : "SensoryResult"
   },
   "question" : "KIT – Baby arugula",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "_Z9fYJMjTQmvvPk3kKgw2A",
+  "name" : "details",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Describe the details of the issue.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "anAcOfQTRHaVKEdbRo-v1g",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -116,6 +176,16 @@
     "name" : "SensoryResult"
   },
   "question" : "KIT – Spring mix",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "opN8NbeWQ2yt798-RUbtyQ",
+  "name" : "contextString",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
