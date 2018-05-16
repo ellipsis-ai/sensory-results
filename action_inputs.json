@@ -1,54 +1,4 @@
 [ {
-  "exportId" : "03Be-XxNQ4SnouE4floh-g",
-  "name" : "springMixMTR",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "MTR – Spring mix",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "2GV7b-u6Rb60CoRqSKCHkg",
-  "name" : "babyKaleMTR",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "MTR – Baby kale",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "2O1Tko8ZRfmvAaoho1uHRg",
-  "name" : "springMixMegalodon",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "Megalodon – Spring mix",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "2m_4qYxCTBSlrkHcqmOUSw",
-  "name" : "babyRomaineKIT",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "KIT – Baby Romaine",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "49AR9zUvQNmgRTnaIPjqAQ",
-  "name" : "babyKaleMegalodon",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "Megalodon – Baby kale",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
   "exportId" : "BLQM_5t6S36evoENtc5zJQ",
   "name" : "result",
   "paramType" : {
@@ -56,6 +6,16 @@
     "name" : "SensoryResult"
   },
   "question" : "What is the sensory result?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "BkX5aLLZSiq7k90fN4OOvg",
+  "name" : "postChannels",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Which channels should I post to (space separated)?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -69,16 +29,6 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "CoTLNTsgTXadkwmXQ2DQ5w",
-  "name" : "babyRomaineMTR",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "MTR – Baby Romaine",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
   "exportId" : "KHl2mJQyT52H7SWFRJ_dqQ",
   "name" : "result",
   "paramType" : {
@@ -86,16 +36,6 @@
     "name" : "SensoryResult"
   },
   "question" : "What is the value for `result`?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "KuCJZNzERM6VnFNfZAogAg",
-  "name" : "babyKaleKIT",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "KIT – Baby kale",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -119,13 +59,13 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "WRScDg3lQOqDn55j7gf6vg",
-  "name" : "babyArugulaKIT",
+  "exportId" : "Z4-vlnnuTx2hxLTVKlHsmQ",
+  "name" : "postChannels",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "KIT – Baby arugula",
+  "question" : "Which channels should I post to (space separated)?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -149,33 +89,13 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "bO9YLw9fSJ-KdVe4fldaGw",
-  "name" : "babyArugulaMTR",
+  "exportId" : "n5thGJcfQSi8kK88NSVLog",
+  "name" : "postChannels",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "MTR – Baby arugula",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "eqUoihRsT-meSOVuKm38hQ",
-  "name" : "babyRomaineMegalodon",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "Megalodon – Baby Romaine",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "m1qSho-ZSnWfbvt19Fex5g",
-  "name" : "springMixKIT",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "KIT – Spring mix",
+  "question" : "Which channels should I post to (space separated)?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -186,16 +106,6 @@
     "name" : "Text"
   },
   "question" : "What is the value for `contextString`?",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "zFWSNNFpT8WYE3UJcFz_Gg",
-  "name" : "babyArugulaMegalodon",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "Megalodon – Baby arugula",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 } ]

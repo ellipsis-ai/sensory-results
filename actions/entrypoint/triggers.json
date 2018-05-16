@@ -1,5 +1,5 @@
 [ {
-  "text" : "run sensory checklist",
+  "text" : "run sensory checklist posting to {postChannels}",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false

@@ -39,7 +39,7 @@ function detailsFor(result) {
   }
 }
 
-const channels = ["bot"].filter(ea => ea != channel);
+const channels = context.postChannels.filter(ea => ea != channel);
 api.say({ message: summary }).then(res => {
   Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
 });

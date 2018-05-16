@@ -1,4 +1,4 @@
-function(ellipsis) {
+function(postChannels, ellipsis) {
   const possibleAnswers = require('options');
 const rooms = require('rooms');
 const crops = require('crops');
@@ -13,7 +13,8 @@ rooms.forEach(eaRoom => {
 
 const context = new Context({
   todos: [],
-  results: results
+  results: results,
+  postChannels: postChannels.split(' ')
 })
 
 ellipsis.success("", {

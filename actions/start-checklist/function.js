@@ -1,8 +1,8 @@
-function(ellipsis) {
+function(postChannels, ellipsis) {
   const crops = require('crops');
 const rooms = require('rooms');
 const Context = require('context');
-const context = Context.initialFor(crops, rooms); 
+const context = Context.initialFor(crops, rooms, postChannels); 
 
 ellipsis.success("OK, let's get started…", {
   next: {
