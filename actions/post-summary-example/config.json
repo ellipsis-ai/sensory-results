@@ -1,6 +1,7 @@
 {
   "exportId" : "JuQ8XXWHTQiGCaK6xP7hSw",
-  "name" : "run-with-answers",
+  "name" : "post-summary-example",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
   "isDataType" : false
 }

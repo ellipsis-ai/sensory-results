@@ -1,71 +1,51 @@
 [ {
-  "exportId" : "03Be-XxNQ4SnouE4floh-g",
-  "name" : "springMixMTR",
+  "exportId" : "BLQM_5t6S36evoENtc5zJQ",
+  "name" : "result",
   "paramType" : {
     "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
     "name" : "SensoryResult"
   },
-  "question" : "MTR – Spring mix",
+  "question" : "What's the score for this crop in this grow room?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "2GV7b-u6Rb60CoRqSKCHkg",
-  "name" : "babyKaleMTR",
+  "exportId" : "BkX5aLLZSiq7k90fN4OOvg",
+  "name" : "postChannels",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "MTR – Baby kale",
+  "question" : "In which channels should I post the results? Type in one or more, space separated:",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "2O1Tko8ZRfmvAaoho1uHRg",
-  "name" : "springMixMegalodon",
+  "exportId" : "CULjdK3fQaewTf1dubhH-g",
+  "name" : "contextString",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "Megalodon – Spring mix",
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "2m_4qYxCTBSlrkHcqmOUSw",
-  "name" : "babyRomaineKIT",
+  "exportId" : "KHl2mJQyT52H7SWFRJ_dqQ",
+  "name" : "result",
   "paramType" : {
     "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
     "name" : "SensoryResult"
   },
-  "question" : "KIT – Baby Romaine",
+  "question" : "What is the value for `result`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "49AR9zUvQNmgRTnaIPjqAQ",
-  "name" : "babyKaleMegalodon",
+  "exportId" : "PU_EDMKZS2q5OW7a-Y8Dyw",
+  "name" : "contextString",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "Megalodon – Baby kale",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "CoTLNTsgTXadkwmXQ2DQ5w",
-  "name" : "babyRomaineMTR",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "MTR – Baby Romaine",
-  "isSavedForTeam" : false,
-  "isSavedForUser" : false
-}, {
-  "exportId" : "KuCJZNzERM6VnFNfZAogAg",
-  "name" : "babyKaleKIT",
-  "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
-  },
-  "question" : "KIT – Baby kale",
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -79,53 +59,53 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "WRScDg3lQOqDn55j7gf6vg",
-  "name" : "babyArugulaKIT",
+  "exportId" : "Z4-vlnnuTx2hxLTVKlHsmQ",
+  "name" : "postChannels",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "KIT – Baby arugula",
+  "question" : "In which channels should I post the results? Type in one or more, space separated:",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "bO9YLw9fSJ-KdVe4fldaGw",
-  "name" : "babyArugulaMTR",
+  "exportId" : "_Z9fYJMjTQmvvPk3kKgw2A",
+  "name" : "details",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "MTR – Baby arugula",
+  "question" : "Describe the details of the issue.",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "eqUoihRsT-meSOVuKm38hQ",
-  "name" : "babyRomaineMegalodon",
+  "exportId" : "anAcOfQTRHaVKEdbRo-v1g",
+  "name" : "contextString",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "Megalodon – Baby Romaine",
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "m1qSho-ZSnWfbvt19Fex5g",
-  "name" : "springMixKIT",
+  "exportId" : "n5thGJcfQSi8kK88NSVLog",
+  "name" : "postChannels",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "KIT – Spring mix",
+  "question" : "In which channels should I post the results? Type in one or more, space separated:",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "zFWSNNFpT8WYE3UJcFz_Gg",
-  "name" : "babyArugulaMegalodon",
+  "exportId" : "opN8NbeWQ2yt798-RUbtyQ",
+  "name" : "contextString",
   "paramType" : {
-    "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
-    "name" : "SensoryResult"
+    "exportId" : "Text",
+    "name" : "Text"
   },
-  "question" : "Megalodon – Baby arugula",
+  "question" : "What is the value for `contextString`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 } ]

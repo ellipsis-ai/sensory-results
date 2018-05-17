@@ -1,5 +1,5 @@
 [ {
-  "text" : "run sensory example",
+  "text" : "post summary example in {postChannels}",
   "requiresMention" : true,
   "isRegex" : false,
   "caseSensitive" : false
