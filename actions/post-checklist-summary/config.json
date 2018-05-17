@@ -2,5 +2,6 @@
   "exportId" : "xFUvPWnzQrCeZPNydLUArQ",
   "name" : "post-checklist-summary",
   "forcePrivateResponse" : false,
+  "canBeMemoized" : false,
   "isDataType" : false
 }
