@@ -65,7 +65,7 @@
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "Which channels should I post to (space separated)?",
+  "question" : "In which channels should I post the results? Type in one or more, space separated:",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
