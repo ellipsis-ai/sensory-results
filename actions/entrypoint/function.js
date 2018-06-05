@@ -1,6 +1,5 @@
 function(postChannels, ellipsis) {
-  const C = require('skill-constants');
-const rooms = require('rooms');
+  const rooms = require('rooms');
 const choices = rooms.map(choiceFor);
 
 const intro = `
