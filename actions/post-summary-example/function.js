@@ -4,15 +4,15 @@ const rooms = require('rooms');
 const crops = require('crops');
 const Context = require('context');
 
-let results = [];
-rooms.forEach(eaRoom => {
-  crops.forEach(eaCrop => {
-    results.push({ room: eaRoom, crop: eaCrop, result: randomAnswer() });
-  })
-})
+const room = rooms[0];
+let results = {};
+crops.forEach(ea => {
+  results[ea] = randomAnswer();
+});
 
 const context = new Context({
-  todos: [],
+  room: room,
+  cropsTodo: crops,
   results: results,
   postChannels: postChannels.split(' ')
 })

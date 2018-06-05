@@ -1,4 +1,14 @@
 [ {
+  "exportId" : "AGHUKRmzRbGYjoSqCvsmLg",
+  "name" : "room",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which room?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "BLQM_5t6S36evoENtc5zJQ",
   "name" : "result",
   "paramType" : {
@@ -46,6 +56,16 @@
     "name" : "Text"
   },
   "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "TTAffdYIRG6MQ9hX5CZb3g",
+  "name" : "isAllGood",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Is every crop in this room a `Pass`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {

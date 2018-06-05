@@ -1,19 +1,30 @@
 function(postChannels, ellipsis) {
-  const intro = `
+  const rooms = require('rooms');
+const choices = rooms.map(choiceFor);
+
+const intro = `
 :nose: Hello, this is the Sensory Results Checklist skill. 
 
 If you ever need to run the checklist manually, you can type \`…run sensory checklist posting to ${postChannels}\`.
 
-You will be asked, for each crop in each grow room, if it is a \`Pass\`, a \`Caution\`, a \`Fail\` or \`N/A\` if a sensory test wasn't performed.
+Once you choose a room, you will be asked if each crop is a \`Pass\`, a \`Caution\`, a \`Fail\` or \`N/A\` if a sensory test wasn't performed.
 
-When you're ready, click \`Start\`
+Click a room when you are ready to provide scores.
 `;
 ellipsis.success(intro, {
-  choices: [{
-    label: "Start",
-    actionName: "start-checklist",
-    args: [ { name: "postChannels", value: postChannels } ],
-    allowOthers: true
-  }]
+  choices: choices
 });
+
+function choiceFor(room) {
+  return {
+    label: room,
+    actionName: "start-checklist", 
+    args: [ 
+      { name: "room", value: room },
+      { name: "postChannels", value: postChannels }
+    ],
+    allowMultipleSelections: true,
+    allowOthers: true
+  };
+}
 }

@@ -7,28 +7,22 @@ const user = ellipsis.userInfo.messageInfo.userId;
 const Context = require('context');
 const context = new Context(JSON.parse(contextString));
 
-const rooms = require('rooms');
-const resultsText = rooms.map(ea => {
-  return resultsTextForRoom(ea);
-}).join("\n\n");
-
 const legend = options.map(ea => `${ea.emoji} = ${ea.name}`).join(", ");
 const summary = `
-Sensory checklist has been completed by <@${user}>:
+Sensory checklist for ${context.room} has been completed by <@${user}>:
 (${legend})
 
-${resultsText}
+${resultsText()}
 `;
 
-function resultsTextForRoom(room) {
-  const resultLines = context.resultsForRoom(room).map(ea => {
-    return resultFor(ea);
+function resultsText() {
+  return Object.keys(context.results).map(crop => {
+    return resultFor(crop, context.resultFor(crop));
   }).join("\n");
-  return `**${room}**\n${resultLines}`;
 }
 
-function resultFor(r) {
-  return `${r.result.emoji}  ${r.crop}  ${detailsFor(r.result)}`.trim();
+function resultFor(crop, result) {
+  return `${result.emoji}  ${crop}  ${detailsFor(result)}`.trim();
 }
 
 function detailsFor(result) {
