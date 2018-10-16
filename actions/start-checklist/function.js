@@ -1,5 +1,6 @@
 function(postChannels, room, isAllGood, ellipsis) {
-  const crops = require('crops');
+  const getCrops = require('crops');
+const crops = getCrops(room);
 const Context = require('context');
 const passResult = require('options')[0];
 

@@ -1,11 +1,12 @@
 function(postChannels, ellipsis) {
   const possibleAnswers = require('options');
 const rooms = require('rooms');
-const crops = require('crops');
+const getCrops = require('crops');
 const Context = require('context');
 
 const room = rooms[0];
 let results = {};
+const crops = getCrops(room);
 crops.forEach(ea => {
   results[ea] = randomAnswer();
 });
