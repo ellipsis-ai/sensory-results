@@ -1,7 +1,8 @@
 {
   "exportId" : "JuQ8XXWHTQiGCaK6xP7hSw",
   "name" : "post-summary-example",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : false,
-  "isDataType" : false
+  "isDataType" : false,
+  "isTest" : false
 }

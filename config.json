@@ -3,6 +3,6 @@
   "exportId" : "RD3-WzmPT2iM7ZREzajEGg",
   "icon" : "👃",
   "requiredAWSConfigs" : [ ],
-  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredOAuthApiConfigs" : [ ],
   "requiredSimpleTokenApis" : [ ]
 }

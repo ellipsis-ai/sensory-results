@@ -1,4 +1,14 @@
 [ {
+  "exportId" : "2y1UhglQRlu9cj_pPUwfRA",
+  "name" : "fromYear",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `fromYear`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "AGHUKRmzRbGYjoSqCvsmLg",
   "name" : "room",
   "paramType" : {
@@ -39,6 +49,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "EVWYsQw_TPmXqq0fVfRihw",
+  "name" : "fromDay",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `fromDay`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "KHl2mJQyT52H7SWFRJ_dqQ",
   "name" : "result",
   "paramType" : {
@@ -46,6 +66,16 @@
     "name" : "SensoryResult"
   },
   "question" : "What is the value for `result`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "OKmOe67SRdqrgk9IcqWp0A",
+  "name" : "facility",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which facility?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
@@ -106,6 +136,16 @@
     "name" : "Text"
   },
   "question" : "What is the value for `contextString`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "htyl_GrQTUiPUzYcBRvBig",
+  "name" : "fromMonth",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `fromMonth`?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {

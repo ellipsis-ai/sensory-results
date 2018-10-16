@@ -1,7 +1,8 @@
 {
   "exportId" : "pgIiTYMpQtCrhPhSvUzkXQ",
   "name" : "run-followup",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : false,
-  "isDataType" : false
+  "isDataType" : false,
+  "isTest" : false
 }

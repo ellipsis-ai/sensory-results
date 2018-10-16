@@ -1,9 +1,10 @@
 {
   "exportId" : "80ZxUI_FSxGCcIocGcy1lQ",
   "name" : "SensoryResult",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : true,
   "isDataType" : true,
+  "isTest" : false,
   "dataTypeConfig" : {
     "fields" : [ ],
     "usesCode" : true

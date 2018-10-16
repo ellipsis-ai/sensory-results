@@ -1,7 +1,8 @@
 {
   "exportId" : "fSTnX2bgT0u__X0uK0EqnQ",
   "name" : "start-checklist",
-  "forcePrivateResponse" : true,
+  "responseTypeId" : "Private",
   "canBeMemoized" : false,
-  "isDataType" : false
+  "isDataType" : false,
+  "isTest" : false
 }

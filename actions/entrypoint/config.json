@@ -1,7 +1,8 @@
 {
   "exportId" : "6H34_5fZTHSFMjR_kbcymA",
   "name" : "entrypoint",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : true,
-  "isDataType" : false
+  "isDataType" : false,
+  "isTest" : false
 }

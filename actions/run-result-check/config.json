@@ -1,7 +1,8 @@
 {
   "exportId" : "q6QC9RimSg2g09h5lqyyZw",
   "name" : "run-result-check",
-  "forcePrivateResponse" : false,
+  "responseTypeId" : "Normal",
   "canBeMemoized" : false,
-  "isDataType" : false
+  "isDataType" : false,
+  "isTest" : false
 }
