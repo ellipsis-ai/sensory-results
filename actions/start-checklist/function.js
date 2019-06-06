@@ -1,4 +1,4 @@
-function(postChannels, room, isAllGood, ellipsis) {
+function(postChannels, facility, room, isAllGood, ellipsis) {
   const getCrops = require('crops');
 const crops = getCrops(room);
 const Context = require('context');
@@ -9,9 +9,10 @@ if (isAllGood) {
   crops.forEach(ea => results[ea] = passResult);
   const context = new Context({
     postChannels: postChannels.split(' '),
+    facility: facility,
     room: room,
     results: results,
-    cropsTodo: []    
+    cropsTodo: []
   });
   ellipsis.success(`Great. I'll post this in ${postChannels}`, {
     next: {
@@ -22,7 +23,7 @@ if (isAllGood) {
     }
   });
 } else {
-  const context = Context.initialFor(crops, room, postChannels); 
+  const context = Context.initialFor(crops, facility, room, postChannels); 
   ellipsis.success("OK, let's get started…", {
     next: {
       actionName: "run-check",

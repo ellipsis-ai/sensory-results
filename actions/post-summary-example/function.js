@@ -4,7 +4,8 @@ const rooms = require('rooms');
 const getCrops = require('crops');
 const Context = require('context');
 
-const room = rooms[0];
+const facility = "SSF";
+const room = rooms[facility][0];
 let results = {};
 const crops = getCrops(room);
 crops.forEach(ea => {
@@ -12,6 +13,7 @@ crops.forEach(ea => {
 });
 
 const context = new Context({
+  facility: facility,
   room: room,
   cropsTodo: crops,
   results: results,

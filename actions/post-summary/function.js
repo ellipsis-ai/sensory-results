@@ -6,6 +6,7 @@ const channel = ellipsis.userInfo.messageInfo.channel;
 const user = ellipsis.userInfo.messageInfo.userId;
 const Context = require('context');
 const context = new Context(JSON.parse(contextString));
+const ChecklistToSheet = require('checklist-to-sheet');
 
 const legend = options.map(ea => `${ea.emoji} = ${ea.name}`).join(", ");
 const summary = `
@@ -34,9 +35,10 @@ function detailsFor(result) {
 }
 
 const channels = context.postChannels.filter(ea => ea != channel);
-api.say({ message: summary }).then(res => {
-  Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
-});
+api.say({ message: summary })
+  .then(() => ChecklistToSheet.save(ellipsis, ellipsis.env.SYSTEMS_CHECKLISTS_SPREADSHEET_ID, `Sensory checklist for ${context.facility}-${context.room}`, context.results))
+  .then(() => Promise.all(channels.map(postSummaryTo)))
+  .then(() => ellipsis.noResponse());
 
 function postSummaryTo(channel) {
   return api.run({

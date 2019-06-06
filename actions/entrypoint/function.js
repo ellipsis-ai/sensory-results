@@ -19,7 +19,8 @@ function choiceFor(room) {
   return {
     label: room,
     actionName: "start-checklist", 
-    args: [ 
+    args: [
+      { name: "facility", value: facility },
       { name: "room", value: room },
       { name: "postChannels", value: postChannels }
     ],
