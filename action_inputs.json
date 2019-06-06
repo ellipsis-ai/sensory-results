@@ -59,6 +59,16 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
+  "exportId" : "JFREubHLTRG4YtE5ipc2ig",
+  "name" : "facility",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "For which facility?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
   "exportId" : "KHl2mJQyT52H7SWFRJ_dqQ",
   "name" : "result",
   "paramType" : {
